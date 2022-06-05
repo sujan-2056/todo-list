@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  background-repeat: no-repeat;
+
+}
+
+.designer{
+  font-family: sans-serif;
+  margin: 2rem 0rem;
+}
+
+.designer span{
+  font-family: monospace;
+  color: rgb(15, 250, 152);
+}
+
+.hell{
+  text-align: center;
+  border-radius: 9px;
+  background: linear-gradient(rgb(149, 11, 184),rgb(2, 219, 248));
+
+  width: 40%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.container h1{
+  text-align: center;
+  margin: 1rem
+ 
+}
+
+.fa-clipboard-list{
+  font-size: 5rem;
+  color:rgb(235, 232, 224);
+  background: linear-gradient(red,blue);
+  padding: 2rem 2rem;
+  border-radius: 30px;
+  
+}
+
+.input{
+  outline: none;
+  border: 2px solid black;
+  width: auto;
+  height: 2rem;
+  font-size: 1rem;
+  padding: .5rem;
+  font-weight: 600;
+  border-radius: 9px;
+  
+
+}
+
+.fa-plus{
+  margin-right: 5px;
+  color:rgb(7, 7, 7);
+}
+
+button{
+  border-radius: 9px;
+  outline: none;
+  border: 2px solid black;
+  width: auto;
+  height: 2rem;
+  font-size: .8rem;
+  padding: .5rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgba(2, 219, 248, 0.397);
+}
+
+button:hover{
+  background-color: rgb(2, 219, 248);
+}
+
+.button-cont{
+  margin: 2rem;
+  margin-top: 4rem; 
+  /* border: 1px solid black; */
+}
+
+.remove-all{
+  /* border: 1px solid red; */
+  font-size: 1rem;
+  padding: .5rem;
+  background-color: rgba(128, 255, 0, 0.623);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px -1px black;
+  border-radius: 9px;
+}
+
+.remove-all:hover{
+  background-color: chartreuse;
+}
+
+ul li{
+  border-bottom: 1px solid rgb(146, 144, 144) !important; 
+  width: 70%;
+  margin: .5rem auto;
+  outline: none;
+  padding: .5rem;
+  border: transparent;
+  list-style: none;
+  position: relative;
+}
+
+
+.fa-trash{
+  color: rgba(255, 7, 7, 0.562);
+  cursor: pointer;
+}
+
+.fa-trash:hover{
+  color: red;
+}
+
+ul li span {
+  position: absolute;
+  right: 0px;
+}
+
+ul li{
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.removeItem{
+  position : absolute;
+  right: 0px;
+  color: rgb(253, 247, 247);
+  text-decoration: none;
+  font-weight: 600;
+  font-family: monospace;
+  border: 1px solid rgb(155, 2, 243);
+  padding: .2rem;
+  background-color: rgba(59, 152, 168, 0.466);
+}
+
+.removeItem:hover{
+  background-color: rgba(54, 160, 179, 0.671);
+
+}
